@@ -12,7 +12,9 @@ public class Account {
         System.out.print(") имеет на счету $");
         System.out.print(balance);
     }
+
     public double getInterest(double parcentageRate){
         return balance * parcentageRate / 100.00;
     }
+
 }
