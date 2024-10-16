@@ -4,7 +4,6 @@ package by.itacademy.artsiommitskevich;
         public static void main(String[] args) {
             Account myAccount = new Account();
             Account yourAccount = new Account();
-
             myAccount.name = "Барри";
             myAccount.address = "222 Inner Lane";
             myAccount.balance = 24.02;
